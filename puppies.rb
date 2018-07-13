@@ -36,4 +36,7 @@ end
 def both_animals(num_of_puppies, num_of_cats)
   if num_of_puppies == 0 || num_of_cats == 0
     return "Good job, Rachel!"
-  elsif 
+  elsif num_of_puppies > 0 || num_of_cats > 0
+    return "Slow down! No more puppies or cats."
+  end 
+end
